@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2b2b685-31e9-445c-a7a4-2fb25fb6b093" name="Changes" comment="Enviando a atividade de ArrayList.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayDeque/Exercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayDeque/Exercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayDeque/Exercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayDeque/Exercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayDeque/Exercicio5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayDeque/Exercicio6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHashMap/Exercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHashMap/Exercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHashMap/Exercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHashMap/Exercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHashMap/Exercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercicio4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercicio5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayList/Exercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayList/Exercicio5.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rebeca-miguel&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rebeca-miguel/excecao-java.git&quot;,
+    &quot;accountId&quot;: &quot;4a1a86f0-80a4-48c0-a2f9-4f3aa5b96a04&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3KFfEkUg2zNF2GqtPi6KJfSzUxe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Exercicio1.executor": "Run",
+    "Application.Exercicio2.executor": "Run",
+    "Application.Exercicio3.executor": "Run",
+    "Application.Exercicio4.executor": "Run",
+    "Application.Exercicio5.executor": "Run",
+    "Application.Exercicio6.executor": "Run",
+    "Application.org.example.atividadeHashSet.Exercicio2.executor": "Run",
+    "Application.org.example.atividadeHashSet.Exercicio5.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Engº Manuel Kima/IdeaProjects/excecao/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Exercicio5">
+    <configuration name="Exercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.atividadeHashMap.Exercicio1" />
+      <module name="excecao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.atividadeHashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.atividadeHashMap.Exercicio2" />
+      <module name="excecao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.atividadeHashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.atividadeHashMap.Exercicio3" />
+      <module name="excecao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.atividadeHashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.atividadeHashMap.Exercicio4" />
+      <module name="excecao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.atividadeHashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.atividadeHashMap.Exercicio5" />
+      <module name="excecao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.atividadeHashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Exercicio5" />
+        <item itemvalue="Application.Exercicio4" />
+        <item itemvalue="Application.Exercicio3" />
+        <item itemvalue="Application.Exercicio2" />
+        <item itemvalue="Application.Exercicio1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2b2b685-31e9-445c-a7a4-2fb25fb6b093" name="Changes" comment="" />
+      <created>1791158138570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791158138570</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Enviando a atividade de exceção para o repositório do github." />
+    <MESSAGE value="Enviando a atividade de ArrayList." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enviando a atividade de ArrayList." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/atividadeExcecao/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/atividadeExcecao/Exercicio6.java</url>
+          <line>3</line>
+          <properties class="org.example.atividadeExcecao.Exercicio6" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/atividadeHashMap/Exercicio4.java</url>
+          <line>5</line>
+          <properties class="org.example.atividadeHashMap.Exercicio4" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
