@@ -21,6 +21,8 @@ public class Exercicio5 {
             System.out.println(i + " : " + nomes.get(i));
         }
 
+        // o for é: for(onde começa; ate onde vai; tamanho dos passos)
+
 
     }
 }
