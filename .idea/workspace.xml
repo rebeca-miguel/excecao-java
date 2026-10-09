@@ -4,26 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2b2b685-31e9-445c-a7a4-2fb25fb6b093" name="Changes" comment="Enviando a atividade de ArrayList.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayDeque/Exercicio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayDeque/Exercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayDeque/Exercicio3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayDeque/Exercicio4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayDeque/Exercicio5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayDeque/Exercicio6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHashMap/Exercicio1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHashMap/Exercicio2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHashMap/Exercicio3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHashMap/Exercicio4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHashMap/Exercicio5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercicio1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercicio2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercicio3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercicio4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercicio5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Exercicio6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayList/Exercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeArrayList/Exercicio5.java" afterDir="false" />
+    <list default="true" id="c2b2b685-31e9-445c-a7a4-2fb25fb6b093" name="Changes" comment="Enviando a atividade de HashMap, ArrayDque e HashSet.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeForEach/Exercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeForEach/Exercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeInterfaces/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeInterfaces/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeInterfaces/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeInterfaces/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeInterfaces/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeInterfaces/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeInterfaces/Notificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeInterfaces/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeInterfaces/SMS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeInterfaces/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/listaRevisaoComReferencia/Exercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,60 +57,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Exercicio1.executor": "Run",
-    "Application.Exercicio2.executor": "Run",
-    "Application.Exercicio3.executor": "Run",
-    "Application.Exercicio4.executor": "Run",
-    "Application.Exercicio5.executor": "Run",
-    "Application.Exercicio6.executor": "Run",
-    "Application.org.example.atividadeHashSet.Exercicio2.executor": "Run",
-    "Application.org.example.atividadeHashSet.Exercicio5.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Engº Manuel Kima/IdeaProjects/excecao/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Exercicio1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrincipalNoti.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.atividadeHashSet.Exercicio2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.atividadeHashSet.Exercicio5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.listaRevisaoComReferencia.Exercicio1.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Engº Manuel Kima/IdeaProjects/excecao/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Exercicio5">
+}</component>
+  <component name="RunManager" selected="Application.Exercicio4">
     <configuration name="Exercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.atividadeHashMap.Exercicio1" />
+      <option name="MAIN_CLASS_NAME" value="org.example.atividadeForEach.Exercicio1" />
       <module name="excecao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.atividadeHashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.atividadeHashMap.Exercicio2" />
-      <module name="excecao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.atividadeHashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercicio3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.atividadeHashMap.Exercicio3" />
-      <module name="excecao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.atividadeHashMap.*" />
+          <option name="PATTERN" value="org.example.atividadeForEach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +96,11 @@
       </method>
     </configuration>
     <configuration name="Exercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.atividadeHashMap.Exercicio4" />
+      <option name="MAIN_CLASS_NAME" value="org.example.atividadeForEach.Exercicio4" />
       <module name="excecao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.atividadeHashMap.*" />
+          <option name="PATTERN" value="org.example.atividadeForEach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +108,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercicio5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.atividadeHashMap.Exercicio5" />
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.atividadeInterfaces.Principal" />
       <module name="excecao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.atividadeHashMap.*" />
+          <option name="PATTERN" value="org.example.atividadeInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalNoti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.atividadeInterfaces.PrincipalNoti" />
+      <module name="excecao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.atividadeInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.listaRevisaoComReferencia.Exercicio1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.listaRevisaoComReferencia.Exercicio1" />
+      <module name="excecao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.listaRevisaoComReferencia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercicio5" />
         <item itemvalue="Application.Exercicio4" />
-        <item itemvalue="Application.Exercicio3" />
-        <item itemvalue="Application.Exercicio2" />
         <item itemvalue="Application.Exercicio1" />
+        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.PrincipalNoti" />
+        <item itemvalue="Application.org.example.listaRevisaoComReferencia.Exercicio1" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +181,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Enviando a atividade de exceção para o repositório do github." />
     <MESSAGE value="Enviando a atividade de ArrayList." />
-    <option name="LAST_COMMIT_MESSAGE" value="Enviando a atividade de ArrayList." />
+    <MESSAGE value="Enviando a atividade de HashMap, ArrayDque e HashSet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enviando a atividade de HashMap, ArrayDque e HashSet." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
