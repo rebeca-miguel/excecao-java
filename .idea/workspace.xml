@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2b2b685-31e9-445c-a7a4-2fb25fb6b093" name="Changes" comment="Adicionando os exercícios de Herança e Polimorfismo ao repositório do github">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHeranca/Aluna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHeranca/Diretora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHeranca/Exportavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHeranca/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHeranca/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHeranca/Notificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHeranca/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeHeranca/Professora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadePolimorfismo/Boleto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadePolimorfismo/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadePolimorfismo/Estagiaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadePolimorfismo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadePolimorfismo/MeioDePagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadePolimorfismo/Painel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadePolimorfismo/Pix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/petshop/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/petshop/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/petshop/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/petshop/Petshop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/petshop/servicos/Banho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/petshop/servicos/Consulta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/petshop/servicos/Servico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/petshop/servicos/Tosa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/petshop/servicos/Vacina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,34 +54,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Aluna.executor": "Run",
-    "Application.Exercicio1.executor": "Run",
-    "Application.Exercicio2.executor": "Run",
-    "Application.Exercicio3.executor": "Run",
-    "Application.Exercicio4.executor": "Run",
-    "Application.Exercicio5.executor": "Run",
-    "Application.Exercicio6.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Principal.executor": "Run",
-    "Application.PrincipalNoti.executor": "Run",
-    "Application.org.example.atividadeHashSet.Exercicio2.executor": "Run",
-    "Application.org.example.atividadeHashSet.Exercicio5.executor": "Run",
-    "Application.org.example.listaRevisaoComReferencia.Exercicio1.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Engº Manuel Kima/IdeaProjects/excecao/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Aluna.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Exercicio6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Petshop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrincipalNoti.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.atividadeHashSet.Exercicio2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.atividadeHashSet.Exercicio5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.listaRevisaoComReferencia.Exercicio1.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Engº Manuel Kima/IdeaProjects/excecao&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Engº Manuel Kima/IdeaProjects/excecao/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
+}</component>
+  <component name="RunManager" selected="Application.Petshop">
     <configuration name="Aluna" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.atividadeHeranca.Aluna" />
       <module name="excecao" />
@@ -141,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.atividadeInterfaces.Principal" />
+    <configuration name="Petshop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.petshop.Petshop" />
       <module name="excecao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.atividadeInterfaces.*" />
+          <option name="PATTERN" value="org.example.petshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Petshop" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Aluna" />
         <item itemvalue="Application.Exercicio4" />
         <item itemvalue="Application.Exercicio1" />
-        <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
   </component>
