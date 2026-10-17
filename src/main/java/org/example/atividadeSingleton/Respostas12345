@@ -1,0 +1,49 @@
+1. O que o padrão Singleton garante?
+a) Que a classe tenha vários construtores
+b) Que exista apenas um objeto da classe no programa
+c) Que a classe não tenha atributos
+d) Que a classe possa ser herdada
+
+RESPOSTA QUESTÃO 1:
+R: b) Que exista apenas um objeto da classe no programa.
+O Singleton permite que diferentes partes do programa acessem a mesma instância de uma classe.
+
+
+RESPOSTA QUESTÃO 2:
+2. Por que o construtor de um Singleton é private?
+
+R: Porque impede que outras classes criam objetos diretamente usando new.
+Assim, o objeto deve ser obtido pelo método de acesso disponibilizado pela própria classe.
+
+RESPOSTA QUESTÃO 3:
+3. Complete a lacuna:
+
+java
+private static Configuracao instancia;
+a) final
+b) public
+c) static
+d) void
+
+RESPOSTA QUESTÃO :
+4. O que acontece se alguém tentar escrever isto fora da classe?
+
+java
+Configuracao c = new Configuracao();
+R: O código não compila se o construtor de Configuracao for private,
+pois ele não pode ser chamado diretamente de fora da própria classe.
+
+RESPOSTA QUESTÃO 5:
+
+5. Qual é a forma correta de obter o objeto de um Singleton chamado Configuracao?
+a) new Configuracao()
+b) Configuracao.getInstancia()
+c) Configuracao.instancia
+d) this.getInstancia()
+
+R: b) Configuracao.getInstancia() é a resposta correta, pois esse
+método retorna a instância compartilhada da classe.
+
+
+
+

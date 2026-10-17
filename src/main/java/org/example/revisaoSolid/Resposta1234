@@ -1,0 +1,107 @@
+
+1. Questão 1: Abstração
+
+   a) Explique, com suas palavras, o que é abstração em programação orientada a objetos.
+
+   b) Qual a diferença entre abstração e encapsulamento?
+
+   c) Quando você usa lista.add("Ana"), você sabe como o Java guarda esse elemento na memória? Por que isso é um exemplo de abstração?
+
+   R: A abstração é o conceito de representar apenas as características e funcionalidade importantes de um objeto, escondendo detalhes desnecessários de sua implementação.
+
+      Por exemplo, ao utilizar um carro, podemos acelerar, frear e virar o volante sem precisa conhecer todos os detalhes internos do motor.
+
+      Na programação, a abstração permite trabalhar com objetivos por meio de métodos e funcionalidades, sem precisar conhecer como tudo foi implementado internamente.
+
+
+      b) R: Abstração mostra apenas o que é importante para utilizar um objeto, escondendo a complexidade desnecessária.
+      Encapsulamento protege os dados internos de uma classe, controlando como eles podem ser acessados ou modificados.
+
+      Por exemplo: em uma classe ContaBancaria, a abstração permite utilizar o método sacar(). Já o encapsulamento protege o saldo, impedindo que ele seja alterado diretamente de maneira inadequada.
+
+      C) R: Porque podemos adicionar um elemento a lista usando add() sem precisar conhecer todos os detalhes de como o java armazena, organiza ou gerencia esse elemento internamente.
+
+      O método oferece uma funcionalidade simples, enquanto a implementação interna fica escondida do programador. Isso é um exemplo de abstração.
+
+
+2.
+Questão 2: SOLID
+
+Para cada código abaixo, diga qual princípio do SOLID está sendo violado e explique como você corrigiria.
+
+a)
+java
+class Relatorio {
+    void calcularTotais() { /* ... */ }
+    void formatarEmPdf() { /* ... */ }
+    void salvarNoDisco() { /* ... */ }
+    void enviarPorEmail() { /* ... */ }
+}
+
+RESPOSTA QUESTÃO 2:
+R: O Princípio de Responsabilidade Única foi violado.
+Explicação: A classe Relat´rio possuí várias responsabilidades na quais estão descritas acima e isso não representa uma boa prática e não segue o recomendado pelo SOLID.
+A melhor forma para corrigir é separar cada responsabilidade em uma classe específica em suas determinas classes.
+
+
+b)
+java
+class EnviadorEmail {
+    void enviar(String tipo) {
+        if (tipo.equals("aniversario")) {
+            System.out.println("Feliz aniversário!");
+        } else if (tipo.equals("seguranca")) {
+            System.out.println("Alerta de segurança!");
+        } else if (tipo.equals("promocao")) {
+            System.out.println("Promoção imperdível!")
+
+RESPOSTA DA QUESTÃO A:
+
+R: Aqui estamos violando o princípio Aberto/Fechado(OCP).
+Explicação: Sempre que for necessário adicionar um novo tipo de mensagem, será preciso
+modificar a classe e acrescentar outra condição if ou else if.
+
+A forma correta seria criar uma interface para mensagens e implementar
+cada tipo em uma classe diferente. Assim, novos tipos podem ser adicionados sem modoficar a lógica já existente.
+
+
+c)
+java
+class PedidoService {
+    private MySQLRepositorio repo = new MySQLRepositorio();
+
+    void finalizar() {
+        repo.salvar();
+    }
+}
+
+RESPOSTA C:
+
+R: Aqui estamos violando o Princípio da Inversão de Dependência(DIP).
+Explicação: A classe PedidoService depende diretamente da implementação conreta
+MYSQLRepositorio, dificultando a troca do banco de dados ou a realização de testes.
+
+Para corrigir, cirarei uma interface Reposotorio e fazer
+o MySQLRepositorio implementá-la. A classe PedidoService
+dependerá da interface, e não de uma implementação específica.
+
+
+QUESTÃO 4.
+
+Questão 4: Modificadores de acesso
+
+Explique quem pode acessar um atributo ou método declarado com cada modificador:
+
+a) private
+b) default (sem modificador)
+c) protected
+d) public
+
+
+RESPOSTA QUESTÃO 4:
+
+R: a) private: Pode ser acessado somente por classes que estejam no mesmo pacote.
+b) default: Ele não tem modificador, pode ser acessado por classes que estejam no mesmo pacote.
+c) protected: Pode ser acessado por classes do mesmo pacote e por subclasses, incluive em outros pacotes, respeitando as regras de acesso por herança.
+d) public: Pode ser acessado por qualquer classe que tenha acesso à classe e ao membro respeitando demais regras da linguagem.
+
