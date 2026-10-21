@@ -1,9 +1,12 @@
 package org.example.atividadeSingleton;
 
+import org.example.aula18.Bebe;
+
 public class Main3 {
     public static void main(String[] args) {
 
-        ContadorVisitas pagina1 = ContadorVisitas.getInstancia();
+
+        /*ContadorVisitas pagina1 = ContadorVisitas.getInstancia();
 
         ContadorVisitas pagina2 = ContadorVisitas.getInstancia();
 
@@ -24,5 +27,9 @@ public class Main3 {
         telaPromocoes.adicionarItem();
 
         System.out.println("Itens no carrinho: " + telaProdutos.getQuantidadeItens());
+
+         */
+
+
     }
 }
