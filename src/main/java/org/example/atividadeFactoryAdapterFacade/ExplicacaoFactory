@@ -1,0 +1,70 @@
+Questão 1. Explique com suas palavras qual problema o Factory resolve.
+O que aconteceria se os ifs que decidem qual objeto criar ficassem espalhados
+pelo main e por outras partes do programa, e depois surgisse um tipo novo?
+
+RESPOSTA: O Factory serve para deixar a criação dos objetos mais organizada,
+porque encontra essa parte em um único lugar. Assim,
+se surgir um novo tipo de objeto, fica mais fácil fazer alterações sem
+precisar procurar e mudar vários ifs espalhados pelo código.
+
+
+Questão 2. O método da fábrica normalmente devolve o objeto criado com qual tipo?
+• a) O tipo da classe concreta (ex.: Cachorro)
+• b) O tipo da interface (ex.: Animal)
+• c) String
+• d) Não devolve nada (void)
+
+RESPOSTA: Resposta certa é a opção b) O tipo da interface (ex.: Animal).
+
+
+Adapter
+
+Questão 4. Seu sistema precisa usar uma classe de pagamento de outra empresa,
+mas ela não implementa a sua interface. Por que não dá para simplesmente escrever
+implements na classe dela? O que você faz no lugar?
+
+RESPOSTA: Não dá para usar implements diretamente porque a classe de
+outra empresa não foi feita para implementar a nossa interface
+e não podemos alterá-la. Então, criamos um adapter que faz essa
+ligação entre ad duas classes permitindo que o nosso sistema
+utilize os métodos dela.
+
+Questão 5. Em um Adapter, onde fica a tradução (por exemplo, a conversão de dólar para real)?
+• a) Na classe de fora
+• b) Na interface
+• c) No método implementado da interface, dentro do adapter
+• d) No main, antes de chamar o método
+
+RESPOSTA: É no adapter que fazemos a adaptação necessária para que a
+classe externa funcione com o nosso sistema, como converter
+valores de dólares para real se for o caso. Sendo assim, a resposta é a opção:
+c) No método implementado da interface, dentro do adapter.
+
+
+Facade:
+
+Questão 7. Explique com suas palavras qual problema o Facade resolve.
+Se quiser, use o exemplo do síndico do condomínio ou crie outro.
+
+RESPOSTA: O facade facilita o uso de várias classes, porque reúne
+as ações em um só lugar. Assim, em vez de chamar cada classe
+separadamente, podemos usar um único método para executar tudo
+o que precisamos.
+
+
+Questão 8. Marque V (verdadeiro) ou F (falso):
+• () A fachada precisa implementar uma interface.
+• () A fachada guarda as classes envolvidas no processo em atributos.
+• () Depois que a fachada existe, é proibido usar as outras classes diretamente.
+
+RESPOSTA:
+
+• (F) A fachada precisa implementar uma interface.
+• (V) A fachada guarda as classes envolvidas no processo em atributos.
+• (F) Depois que a fachada existe, é proibido usar as outras classes diretamente.
+
+
+
+
+
+
