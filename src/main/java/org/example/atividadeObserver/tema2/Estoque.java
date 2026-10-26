@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Estoque {
 
+    //Pensar nessa minha classe como central de notificações.
+
     private List<ObservarEstoque> observadores = new ArrayList<>();
     private int quantidade;
 

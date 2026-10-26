@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Canal {
 
+    //Pensar nessa minha classe como central de notificações.
     private ArrayList<Inscrito> inscritos = new ArrayList<>();
     private String nomeVideo;
 

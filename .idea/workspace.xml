@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2b2b685-31e9-445c-a7a4-2fb25fb6b093" name="Changes" comment="Adicionando os exercícios de Decorator ao repositório do github.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/ObservadorVoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/PainelAeroporto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/Passageiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/Questoes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/Voo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/tema2/Estoque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/tema2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/tema2/ObservarEstoque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/tema2/RegistroEstoque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/aula22Observer/Canal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/aula22Observer/Inscrito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/aula22Observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/aula22Observer/Seguidor.java" afterDir="false" />
+    <list default="true" id="c2b2b685-31e9-445c-a7a4-2fb25fb6b093" name="Changes" comment="Adicionando os exercícios de Observar ao repositório do github.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/Questoes" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/Questoes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/Voo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/Voo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/tema2/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeObserver/tema2/Estoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/aula22Observer/Canal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/aula22Observer/Canal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +72,7 @@
     "Application.org.example.atividadeHashSet.Exercicio2.executor": "Run",
     "Application.org.example.atividadeHashSet.Exercicio5.executor": "Run",
     "Application.org.example.atividadeObserver.Main.executor": "Run",
+    "Application.org.example.atividadeObserver.tema2.Main.executor": "Run",
     "Application.org.example.aula19.interfaces.Main.executor": "Run",
     "Application.org.example.aula20Decorator.Main.executor": "Run",
     "Application.org.example.listaRevisaoComReferencia.Exercicio1.executor": "Run",
@@ -232,7 +223,8 @@
     <MESSAGE value="Adicionando os exercícios de revisão para criação do build repositório do github." />
     <MESSAGE value="Adicionando os exercícios de Factory, Adapter e Facade ao repositório do github." />
     <MESSAGE value="Adicionando os exercícios de Decorator ao repositório do github." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando os exercícios de Decorator ao repositório do github." />
+    <MESSAGE value="Adicionando os exercícios de Observar ao repositório do github." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando os exercícios de Observar ao repositório do github." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

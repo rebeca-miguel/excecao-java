@@ -3,6 +3,8 @@ package org.example.atividadeObserver;
 import java.util.ArrayList;
 import java.util.List;
 
+//Pensar nessa minha classe como central de notificações.
+
 public class Voo {
 
     private List<ObservadorVoo> observadores = new ArrayList<>();

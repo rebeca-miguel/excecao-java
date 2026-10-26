@@ -10,18 +10,22 @@ os passageiros e o painel do aeroporto recebe essa informação auomáticamente.
 
 2 - No Observer, o que é o Subject  e o que é o Observer? Como o Subject avisa os observadores sem conhecer as classes concretas deles?
 
+RESPOSTA 2:
+O observer é o objeto que recebe as notificações do subject, no exemplo de Passageiro e PpainelAeroporto são observer porque implementam a interface observador.
 
+O subject é o objeto observador responsavel por manter uma lista de observadores e notifcá-las quando ocorrer uma mudança de estado. No exemplo, a classe Voo é o subject.
 
-Se você precisar adicionar um novo interessado,
+3. Se você precisar adicionar um novo interessado,
 por exemplo um Entregador que também precisa saber quando o pedido muda de status,
 o que é preciso alterar na classe Pedido? Por quê?
 
 RESPOSTA 3:
 Se quisermos acrescentar um entregador que também receba a notificações
-sobre o status de um pedido por exemplo, não precisamos alterar a lógica da classe principal Pedido, basta criamos uma classe que implemente a interface de observar e cadastrá-la. Isso reduz o acoplamento e facilita a extensão do sistem.
+sobre o status de um pedido por exemplo, não precisamos alterar a lógica da classe principal Pedido,
+basta criamos uma classe que implemente a interface de observar e cadastrá-la.
+Isso reduz o acoplamento e facilita a extensão do sistem.( //Pensar nessa minha classe como central de notificações).
 
 A interface já está pronta:
-
 
 public interface ObservadorVoo {
 void atualizar(String status);
@@ -35,7 +39,6 @@ b) Crie uma classe Voo com uma lista de ObservadorVoo, um método adicionarObser
 c) No main, crie um voo, adicione um passageiro e mude o status para "Embarque iniciado".
 
 Crie uma classe PainelAeroporto que também implementa ObservadorVoo e imprime "Painel: " + o status. No main, adicione ao voo um passageiro um painel, e mude o status para "Atrasado". Os dois devem ser avisados.
-
 
 
 Agora monte o mesmo padrão do zero, com outro tema:
