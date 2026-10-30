@@ -1,0 +1,70 @@
+
+1 - Runnable
+Runnable não recebe nada, não devolve nada.
+Crie uma Runnable que imprima "executando tarefa". Declare numa variável, execute com .run().
+Depois crie uma segunda Runnable e execute as duas em sequência no main.
+
+
+2 - Consumer
+Consumer algo entra, nada sai.
+Crie um Consumer<String> que receba um nome e imprima "Olá, " + nome.
+Use com .accept("Flora").
+Depois crie um segundo Consumer<String> que imprima o nome em maiúsculo.
+
+
+3 - Supplier
+Supplier nada entra, algo sai
+Crie um Supplier<String> que devolva o texto "Aviso: O sistema está online!". Chame o metodo .get() e imprima o resultado.
+Crie um Supplier<Integer> que gere e devolva um número aleatório (use new Random().nextInt(100)). Chame o .get() duas vezes seguidas e imprima os resultados para ver que ele gera números diferentes a cada chamada.
+
+
+4 - Predicate
+Predicate entra algo, sai boolean
+Crie um Predicate<Integer> que teste se um número é maior que 10. Teste passando o número 5 e depois o número 15 usando o metodo .test(). Imprima ambos os resultados na tela (true ou false).
+Crie um Predicate<String> que valide se um texto está vazio usando texto.isEmpty(). Teste com uma String vazia "" e com uma String preenchida "Java".
+
+
+5 - Function
+Function entra um tipo, sai outro
+Crie uma Function<Integer, String> que receba um número e devolva o texto "Nota fiscal nº: " + numero. Use o metodo .apply(1542) e imprima o resultado.
+Crie uma Function<String, Integer> que receba uma palavra e devolva a quantidade de letras que ela tem usando .length(). Teste com .apply("Professor") e imprima o número gerado.
+
+
+
+
+Gabarito:
+1 -
+Runnable acao = () -> System.out.println("Executando tarefa");
+
+2 -
+Consumer<String> saudacao = (nome) -> System.out.println("Olá " + nome);
+saudacao.accept("Flora");
+
+Consumer<String> maiusculo = (nome) -> System.out.println(nome.toUpperCase());
+maiusculo.accept("Flora");
+
+3 -
+Supplier<String> avisoSistema = () -> "Aviso: O sistema está online!";
+System.out.println(avisoSistema.get());
+
+Supplier<Integer> geradorNumero = () -> new Random().nextInt(100);
+System.out.println("Primeira chamada: " + geradorNumero.get());
+System.out.println("Segunda chamada: " + geradorNumero.get());
+
+4 -
+Predicate<Integer> maiorQueDez = (numero) -> numero > 10;
+System.out.println("O número 5 é maior que 10? " + maiorQueDez.test(5)); // false
+System.out.println("O número 15 é maior que 10? " + maiorQueDez.test(15)); // true
+
+Predicate<String> textoVazio = (texto) -> texto.isEmpty();
+System.out.println("A String \"\" está vazia? " + textoVazio.test("")); // true
+System.out.println("A String \"Java\" está vazia? " + textoVazio.test("Java")); // false
+
+5 -
+Function<Integer, String> formatarNota = (numero) -> "Nota fiscal nº: " + numero;
+String notaFormatada = formatarNota.apply(1542);
+System.out.println(notaFormatada);
+
+Function<String, Integer> contarLetras = (palavra) -> palavra.length();
+Integer totalLetras = contarLetras.apply("Professor");
+System.out.println("A palavra 'Professor' tem " + totalLetras + " letras.");

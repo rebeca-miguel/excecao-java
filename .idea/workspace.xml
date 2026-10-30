@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2b2b685-31e9-445c-a7a4-2fb25fb6b093" name="Changes" comment="Adicionando os exercícios de Lambda ao meu repositório de exceção do github.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeMeuPrimeiroTDDComJUnit5/CalculadorDesconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeMeuPrimeiroTDDComJUnit5/ListaDeExercicioTestesUnitarios" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculadorDescontoTest.java" afterDir="false" />
+    <list default="true" id="c2b2b685-31e9-445c-a7a4-2fb25fb6b093" name="Changes" comment="Adicionando os exercícios de Meu Primeiro TDD com JUnit 5 ao meu repositório de exceção do github.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeLambda2/ListaExercicioLambda2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeLambda2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeStream/ListaeExercicioStream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/atividadeStream/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +76,10 @@
     "Application.org.example.atividadeLambda.exercicio4.Main.executor": "Run",
     "Application.org.example.atividadeLambda.exercicio5.Main.executor": "Run",
     "Application.org.example.atividadeLambda.exercicio6.Main.executor": "Run",
+    "Application.org.example.atividadeLambda2.Main.executor": "Run",
     "Application.org.example.atividadeObserver.Main.executor": "Run",
     "Application.org.example.atividadeObserver.tema2.Main.executor": "Run",
+    "Application.org.example.atividadeStream.Main.executor": "Run",
     "Application.org.example.aula19.interfaces.Main.executor": "Run",
     "Application.org.example.aula20Decorator.Main.executor": "Run",
     "Application.org.example.listaRevisaoComReferencia.Exercicio1.executor": "Run",
@@ -115,7 +118,7 @@
       <recent name="org.example.aula21Testes" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculadorDescontoTest.deveManterValorParaClienteComum">
+  <component name="RunManager" selected="Application.org.example.atividadeLambda2.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.atividadeLambda.Main" />
       <module name="excecao" />
@@ -129,25 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.atividadeLambda.exercicio4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.atividadeLambda.exercicio4.Main" />
+    <configuration name="org.example.atividadeLambda2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.atividadeLambda2.Main" />
       <module name="excecao" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.atividadeLambda.exercicio4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.example.atividadeLambda.exercicio5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.atividadeLambda.exercicio5.Main" />
-      <module name="excecao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.atividadeLambda.exercicio5.*" />
+          <option name="PATTERN" value="org.example.atividadeLambda2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,6 +158,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.atividadeStream.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.atividadeStream.Main" />
+      <module name="excecao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.atividadeStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculadorDescontoTest.deveManterValorParaClienteComum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="excecao" />
       <option name="PACKAGE_NAME" value="" />
@@ -180,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.atividadeLambda2.Main" />
+        <item itemvalue="Application.org.example.atividadeStream.Main" />
         <item itemvalue="JUnit.CalculadorDescontoTest.deveManterValorParaClienteComum" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.example.atividadeLambda.exercicio6.Main" />
-        <item itemvalue="Application.org.example.atividadeLambda.exercicio5.Main" />
-        <item itemvalue="Application.org.example.atividadeLambda.exercicio4.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +229,8 @@
     <MESSAGE value="Adicionando os exercícios de Observar ao repositório do github." />
     <MESSAGE value="Adicionando os exercícios de Observar com atualização nas questoes ao repositório do github." />
     <MESSAGE value="Adicionando os exercícios de Lambda ao meu repositório de exceção do github." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando os exercícios de Lambda ao meu repositório de exceção do github." />
+    <MESSAGE value="Adicionando os exercícios de Meu Primeiro TDD com JUnit 5 ao meu repositório de exceção do github." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando os exercícios de Meu Primeiro TDD com JUnit 5 ao meu repositório de exceção do github." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

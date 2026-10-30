@@ -1,0 +1,8 @@
+
+1 - Dada uma lista de números inteiros de 1 a 6, use Streams para filtrar apenas os números pares e salve o resultado em uma nova lista.
+
+
+2 - Dada uma lista com nomes de frutas em letras minúsculas, use o map para transformar todas as palavras em letras maiúsculas e imprima cada uma na tela.
+
+
+3 -  Dada uma lista de nomes de cidades, filtre apenas as cidades que começam com a letra "S" e conte quantas cidades passaram pelo filtro.
